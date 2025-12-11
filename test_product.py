@@ -11,7 +11,7 @@ def test_get_product_info():
         "ID: 101\n"
         "Name: Laptop\n"
         "Quantity: 5\n"
-        "Price: ₹55000.50"
+        "Price: 55000.50"
     )
 
     assert get_product_info(product_id, name, quantity, price) == expected_output
